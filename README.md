@@ -1,7 +1,8 @@
 # Awesome-Binary-Analysis
 This project classifies the work of binary code analysis in reverse engineering, including binary code similarity, binary code summarization, binary vulnerability detection, binary vulnerability repair and so on, to make it easier for researchers to understand this area.
 
-## Binary Similarity
+## Binary Code Similarity 
+This section includes binary code similarity, clone Detection, binary-source code matching, binary code representations, binary code search
 ### After 2020
 - BinaryAI: Binary Software Composition Analysis via Intelligent Binary Source Code Matching. (**ICSE 2024**) [[paper]](https://dl.acm.org/doi/10.1145/3597503.3639100)
 - Code is not Natural Language: Unlock the Power of Semantics-Oriented Graph Representation for Binary Code Similarity Detection. (**Usenix 2024**) [[paper]](https://www.usenix.org/system/files/sec24summer-prepub-346-he.pdf) [[code]](https://github.com/NSSL-SJTU/HermesSim)
@@ -222,3 +223,19 @@ This project classifies the work of binary code analysis in reverse engineering,
 - On finding duplication and near-duplication in large software systems. (**1995**) [[paper]](https://ieeexplore.ieee.org/document/514697)
 - Detecting code similarity using patterns. (**1995**)
 - A Cross-platform Binary Diff. (**1995**)
+
+## Binary Code Vulnerability Detection 
+- VulHawk: Cross-architecture Vulnerability Detection with Entropy-based Binary Code Search. (**NDSS 2023**) [[paper]](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f415_paper.pdf) [[code]](https://github.com/RazorMegrez/VulHawk)
+- A Large-Scale Empirical Analysis of the Vulnerabilities Introduced by Third-Party Components in IoT Firmware. (**ISSTA 2022**) [[paper]](https://doi.org/10.1145/3533767.3534366) [[code]](https://github.com/BBge/FirmSecDataset)
+- VulPin: Finer-Grained Slicing for Pinpointing Vulnerability in Binary Programs. (**CSAI 2023**) [[paper]](https://dl.acm.org/doi/10.1145/3638584.3638599)
+- VulSeeker: a semantic learning based vulnerability seeker for cross-platform binary. (**ASE 2018**) [[paper]](https://dl.acm.org/doi/10.1145/3238147.3240480)
+- BinAIV: Semantic-enhanced vulnerability detection for Linux x86 binaries. (**Computers & Security 2023**) [[paper]](https://www.sciencedirect.com/science/article/pii/S0167404823004182)
+- QueryX: Symbolic Query on Decompiled Code for Finding Bugs in COTS Binaries. (**S&P 2023**) [[paper]](https://ieeexplore.ieee.org/abstract/document/10179314)
+- BinGo: Identifying Security Patches in Binary Code with Graph Representation Learning. (**arXiv 2023**) [[paper]](http://arxiv.org/abs/2312.07921)
+- Harnessing the Power of LLM to Support Binary Taint Analysis. (**arXiv 2023**) [[paper]](http://arxiv.org/abs/2310.08275)
+- PPT4J: Patch Presence Test for Java Binaries.(**ICSE 2024**) [[paper]](https://dl.acm.org/doi/10.1145/3597503.3639231)
+- Towards Cross-Architecture Binary Code Vulnerability Detection.(**CASCON 2023**) [[paper]](https://dl.acm.org/doi/abs/10.5555/3615924.3615947)
+- BinVulDet: Detecting vulnerability in binary program via decompiled pseudo code and BiLSTM-attention.(**Computers & Security 2023**) [[paper]](https://www.sciencedirect.com/science/article/pii/S0167404822004151)
+- HGE-BVHD: Heterogeneous graph embedding scheme of complex structure functions for binary vulnerability homology discrimination.(**ESWA 2023**) [[paper]](https://www.sciencedirect.com/science/article/pii/S0957417423023370)
+
+## Binary Code Vulnerability Repair
