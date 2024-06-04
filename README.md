@@ -2,6 +2,7 @@
 This project classifies the work of binary code analysis in reverse engineering, including binary code similarity, binary code summarization, binary vulnerability detection, binary vulnerability repair and so on, to make it easier for researchers to understand this area.
 
 ## Binary Similarity
+### After 2020
 - BinaryAI: Binary Software Composition Analysis via Intelligent Binary Source Code Matching. (**ICSE 2024**) [[paper]](https://dl.acm.org/doi/10.1145/3597503.3639100)
 - Code is not Natural Language: Unlock the Power of Semantics-Oriented Graph Representation for Binary Code Similarity Detection. (**Usenix 2024**) [[paper]](https://www.usenix.org/system/files/sec24summer-prepub-346-he.pdf) [[code]](https://github.com/NSSL-SJTU/HermesSim)
 - CLAP: Learning Transferable Binary Code Representations with Natural Language Supervision. (**ISSTA 2024**) [[paper]](https://arxiv.org/pdf/2402.16928.pdf) [[code]](https://github.com/Hustcw/CLAP)
@@ -53,6 +54,8 @@ This project classifies the work of binary code analysis in reverse engineering,
 - VGraph: A Robust Vulnerable Code Clone Detection System Using Code Property Triplets. (**EuroS&P 2020**) [[paper]](https://www2.seas.gwu.edu/~howie/publications/VGraph-EuroSP20.pdf)
 - Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection. (**AAAI 2020**) [[paper]](https://keenlab.tencent.com/en/whitepapers/Ordermatters.pdf)
 - Similarity Metric Method for Binary Basic Blocks of Cross-Instruction Set Architecture. (**NDSS 2020**) [[paper]](https://www.ndss-symposium.org/wp-content/uploads/bar2020-23002.pdf) [[code]](https://github.com/zhangxiaochuan/MIRROR)
+
+### 2015-2019
 - Investigating Graph Embedding Neural Networks with Unsupervised Features Extraction for Binary Analysis. (**NDSS Workshop on Binary Analysis Research (BAR) 2019**) [[paper]](https://www.ndss-symposium.org/wp-content/uploads/bar2019_20_Massarelli_paper.pdf) [[code]](https://github.com/lucamassarelli/Unsupervised-Features-Learning-For-Binary-Similarity)
 - Asm2Vec: Boosting Static Representation Robustness for Binary Clone Search against Code Obfuscation and Compiler Optimization. (**IEEE S&P 2019**) [[paper]](https://www.computer.org/csdl/proceedings-article/sp/2019/666000a038/19skfc3ZfKo) [[code]](https://pdfs.semanticscholar.org/38ae/cd9be307867e375b17597499e3e8be2d4930.pdf) 
 - Semantic-Based Representation Binary Clone Detection for Cross-Architectures in the Internet of Things. (**MDPI 2019**) [[paper]](https://www.mdpi.com/2076-3417/9/16/3283/pdf)
@@ -120,6 +123,8 @@ This project classifies the work of binary code analysis in reverse engineering,
 - Evaluating clone detection tools with BigCloneBench. (**2015**) [[paper]](https://ieeexplore.ieee.org/document/7332459) [[code]](https://github.com/clonebench/BigCloneBench)
 - Memoized semantics-based binary diffing with application to malware lineage inference. (**2015**) [[paper]](https://faculty.ist.psu.edu/wu/papers/memoized-IFIP_SEC_2015.pdf)
 - Sigma: A semantic integrated graph matching approach for identifying reused functions in binary code. (**2015**) [[paper]](https://www.dfrws.org/sites/default/files/session-files/paper-sigma_a_semantic_integrated_graph_matching_approach_for_identifying_reused_functions_in_binary_code.pdf) [[paper]](https://pdfs.semanticscholar.org/a036/ff11b1a675550ac57949bc540f400e8fa695.pdf)
+
+### Before 2015
 - BYTEWEIGHT: Learning to Recognize Functions in Binary Code. (**USENIX 2014**) [[paper]](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-bao.pdf) [[paper]](https://www.usenix.org/sites/default/files/conference/protected-files/sec14_slides_bao.pdf) [[code]](https://www.usenix.org/node/184522)
 - Semantics-based obfuscation-resilient binary code similarity comparison with applications to software plagiarism detection. (**FSE 2014**) [[paper]](https://dl.acm.org/doi/10.1145/2635868.2635900)
 - Binclone: Detecting code clones in malware. (**SERE 2014**) [[paper]](https://cradpdf.drdc-rddc.gc.ca/PDFS/unc194/p800686_A1b.pdf) [[code]](https://github.com/BinSigma/BinClone)
